@@ -1580,7 +1580,7 @@ body {
     }
 
     .home {
-        padding-top: 55px;
+        padding-top: 88px;
     }
 
     .home>div:first-child img {
@@ -1655,22 +1655,10 @@ body {
 @media (max-width: 700px) {
 
     .home {
-        padding-top: 88px;
+        padding-top: 10px;
+        /* padding-bottom: 10; */
     }
 
-    .home>div:first-child {
-        position: absolute;
-        top: 6px;
-        left: 8px;
-        width: auto;
-        justify-content: flex-start;
-    }
-
-    .home>div:first-child img {
-        width: 50px;
-        max-width: 42vw;
-        justify-content: flex-start;
-    }
 
     .zine-brand {
         top: 10px;
@@ -1948,9 +1936,9 @@ body {
 
 @media (max-width: 480px) {
 
-    .home>div:first-child img {
+    /* .home>div:first-child img {
         width: 100px;
-    }
+    } */
 
     .zine-brand {
         top: 0;
