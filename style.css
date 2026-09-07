@@ -228,7 +228,7 @@ body {
     text-align: center;
 }
 
-.menu-brand {
+.menu- brand {
     display: block;
     height: 18px;
     object-fit: contain;
@@ -1654,12 +1654,28 @@ body {
 
 @media (max-width: 700px) {
 
-    .zine::before {
-        position: fixed;
-        top: 15px;
-        left: 20px;
-        height: 50px;
-        width: 75px;
+    .home {
+        padding-top: 88px;
+    }
+
+    .home>div:first-child {
+        position: absolute;
+        top: 6px;
+        left: 8px;
+        width: auto;
+        justify-content: flex-start;
+    }
+
+    .home>div:first-child img {
+        width: 50px;
+        max-width: 42vw;
+        justify-content: flex-start;
+    }
+
+    .zine-brand {
+        top: 10px;
+        left: 10px;
+        width: 120px;
     }
 
     .menu>span {
@@ -1720,7 +1736,10 @@ body {
 
     .menu-brand {
         width: 20px;
-        height: 20px;
+        height: auto;
+        top: 5px;
+        left: 5px;
+        padding: 0;
     }
 
     .zine.active {
@@ -1930,7 +1949,13 @@ body {
 @media (max-width: 480px) {
 
     .home>div:first-child img {
-        width: 310px;
+        width: 100px;
+    }
+
+    .zine-brand {
+        top: 0;
+        left: 6px;
+        width: 75px;
     }
 
     .about {
@@ -1959,6 +1984,15 @@ body {
 
     .cont-chapt li {
         font-size: 9px;
+    }
+}
+
+@media (max-width: 360px) {
+    .zine-brand {
+        top: 0;
+        left: 10px;
+        width: 45px;
+
     }
 }
 
