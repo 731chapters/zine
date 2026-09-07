@@ -13,7 +13,6 @@
         rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <script src="photobooth/frameData.js"></script>
     <script src="https://kit.fontawesome.com/YOUR_KIT_CODE.js" crossorigin="anonymous"></script>
     <!-- 
         © 731chapters
@@ -38,6 +37,10 @@
                 <a href="#chapter-page">
                     <i class="fa-solid fa-book-open menu-icon" aria-hidden="true"></i>
                     <span class="menu-label">Chapters</span>
+                </a>
+                <a href="#" class="nav-bookmark-btn">
+                    <i class="fa-solid fa-bookmark menu-icon" aria-hidden="true"></i>
+                    <span class="menu-label">Bookmark</span>
                 </a>
                 <a href="https://731chapters-site.vercel.app/">
                     <img src="assets/mini731.svg" class="menu-icon menu-brand" alt="">
@@ -203,7 +206,7 @@
         </section>
     </section>
     <section class="zine" id="zine">
-
+        <a href="#main" class="zine-brand" aria-label="Back to homepage"></a>
         <div class="menu">
             <i class="fa-solid fa-bars"></i>
             <span class="dropdown-menu">
@@ -218,6 +221,10 @@
                 <a class="footer-img" href="https://731chapters-site.vercel.app/" target="_blank">
                     <img src="assets/mini731.svg" class="menu-icon menu-brand" alt="">
                     <span class="menu-label">731chapters</span>
+                </a>
+                <a href="#" class="nav-bookmark-btn">
+                    <i class="fa-solid fa-bookmark menu-icon" aria-hidden="true"></i>
+                    <span class="menu-label">Bookmark</span>
                 </a>
                 <a href="#" class="zine-view-toggle" id="zine-view-toggle">
                     <i class="fa-solid fa-mobile-screen-button menu-icon" aria-hidden="true"></i>
@@ -249,11 +256,54 @@
         <div class="prev-page"></div>
         <div class="next-page"></div>
 
-        <div class="page-nav">
-            <div class="work-title" id="work-title"></div>
-        </div>
+        <div class="zine-menu">
+            <div class="page-nav">
+                <div class="work-title" id="work-title"></div>
+                </a>
+            </div>
 
+            <div class="bookmark">
+                <a href="#" id="zine-bookmark-btn" title="Bookmark this work">
+                    <i class="fa-solid fa-bookmark menu-icon" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
     </section>
+
+    <div class="bookmark-overlay" id="bookmark-overlay">
+        <div class="bookmark-modal">
+            <div class="bookmark-modal-header">
+                <h3><i class="fa-solid fa-bookmark" aria-hidden="true"></i>Bookmark</h3>
+                <button type="button" class="bookmark-close" id="bookmark-close" aria-label="Close bookmark panel">
+                    <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+                </button>
+            </div>
+            <div class="bookmark-list" id="bookmark-list">
+            </div>
+        </div>
+    </div>
+    <div class="notification-overlay" id="notification-overlay" aria-hidden="true">
+        <div class="notification-modal" role="dialog" aria-modal="true" aria-labelledby="notification-title">
+            <div class="bookmark-modal-header">
+                <h3 id="notification-title">
+                    <i class="fa-solid fa-triangle-exclamation" aria-hidden="true"></i>
+                    Content Warning
+                </h3>
+                <button type="button" class="bookmark-close" id="notification-close" aria-label="Close notification">
+                    <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+                </button>
+            </div>
+            <div class="notification-content">
+                <p id="notification-question">Apakah kamu sudah 18 tahun ke atas?</p>
+                <div class="notification-actions">
+                    <button type="button" class="notification-btn notification-btn-yes" id="notification-yes">Yes,
+                        Continue</button>
+                    <button type="button" class="notification-btn notification-btn-no" id="notification-no">No, Skip
+                        this content</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
 </body>
 <script src="script.js"></script>
