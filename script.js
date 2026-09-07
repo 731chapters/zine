@@ -415,7 +415,7 @@ const chapterData = {
                 rating: "",
                 pages: [
                     "assets/CREDIT PAGE/by dyata.png",
-                    "assets/PAGES/04-malam/01. dyata/164.png",
+                    "assets/PAGES/04-malam/01. dyata/165.png",
                     "assets/PAGES/04-malam/01. dyata/166.png",
                     "assets/empty.png"
                 ]
@@ -482,7 +482,7 @@ const chapterData = {
                 author: "serpentesea",
                 rating: "",
                 pages: [
-                    "assets/CREDIT PAGE/by sepentesea.png",
+                    "assets/CREDIT PAGE/by serpentesea.png",
                     "assets/PAGES/04-malam/07. serpentesea/181.png",
                     "assets/PAGES/04-malam/07. serpentesea/182.png",
                     "assets/PAGES/04-malam/07. serpentesea/183.png",
@@ -1568,6 +1568,19 @@ document
     .addEventListener("click", () => {
         flipBackward();
     });
+document.addEventListener("keydown", (event) => {
+    switch (event.key) {
+        case "ArrowLeft":
+            flipBackward();
+            break;
+        case "ArrowRight":
+            flipForward();
+            break;
+        default:
+            return;
+    }
+    event.preventDefault();
+});
 
 let lastMode = window.innerWidth <= 700 ? "mobile" : "desktop";
 
