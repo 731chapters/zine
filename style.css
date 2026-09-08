@@ -107,9 +107,15 @@ body {
     width: 100%;
     height: 100%;
 
-    display: flex;
+    display: grid;
+    align-items: center;
+    align-self: center;
     justify-content: center;
     align-items: center;
+}
+
+.landing-area h1 {
+    text-align: center;
 }
 
 .landing-area img {
@@ -282,6 +288,19 @@ body {
 
 }
 
+.background {
+    background-image: url('https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDZsaHlmbmR1dDVidWs5MG1lYzQ2NHRjbHQ0MWcwMGJjYnNxZTYzZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/xThtawJ5higNRr1pq8/giphy.gif');
+
+    background-position: center center;
+
+    background-size: min(760px, 82vw) auto;
+    background-attachment: fixed;
+
+    min-height: 100vh;
+    height: auto;
+    margin: 0;
+}
+
 .about {
     width: min(700px, 90%);
     margin-top: 20px;
@@ -289,11 +308,11 @@ body {
 
 .about p {
     text-align: justify;
-    font-family: "Datatype", monospace;
-    margin: 0;
+    padding: 0 0 20px 0;
+    margin-bottom: 10px;
     text-align: center;
     color: var(--text);
-    font-size: 14px;
+    font-size: 15px;
     line-height: 1.35;
 }
 
@@ -364,17 +383,13 @@ body {
     background-image:
         url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.7' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='.22'/%3E%3C/svg%3E"),
         linear-gradient(to bottom,
-            #F4E0E7 0%,
-            #F3E2E2 8%,
-            #F0E5DF 16%,
-            #EAE8D9 25%,
-            #E2E9D4 35%,
-            #DDEACE 45%,
-            #D8EACD 60%,
-            #D8EACD 100%);
-
+            rgba(244, 224, 231, 0.72) 0%,
+            rgba(243, 226, 226, 0.68) 12%,
+            rgba(234, 232, 217, 0.62) 25%,
+            rgba(226, 233, 212, 0.66) 40%,
+            rgba(216, 234, 205, 0.72) 65%,
+            rgba(216, 234, 205, 0.76) 100%);
     background-repeat: repeat, no-repeat;
-
     background-size: 200px 200px, 100% 100%;
     background-position: 0 0, 0 0;
 
@@ -516,18 +531,12 @@ body {
     gap: 20px;
     background-image:
         url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.7' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='.22'/%3E%3C/svg%3E"),
-        linear-gradient(to top,
-            #F4E0E7 0%,
-            #F3E2E2 8%,
-            #F0E5DF 16%,
-            #EAE8D9 25%,
-            #E2E9D4 35%,
-            #DDEACE 45%,
-            #D8EACD 60%,
-            #D8EACD 100%);
-
+        linear-gradient(to bottom,
+            rgba(216, 234, 205, 0.76) 0%,
+            rgba(226, 233, 212, 0.68) 12%,
+            rgba(243, 226, 226, 0.70) 38%,
+            rgba(244, 224, 231, 0.76) 100%);
     background-repeat: repeat, no-repeat;
-
     background-size: 200px 200px, 100% 100%;
     background-position: 0 0, 0 0;
 
@@ -1940,6 +1949,11 @@ body {
         width: 100px;
     } */
 
+    .about p {
+        font-size: 11px;
+        padding: 0 20px 0 20px;
+    }
+
     .zine-brand {
         top: 0;
         left: 6px;
@@ -1950,9 +1964,6 @@ body {
         width: 88%;
     }
 
-    .about p {
-        font-size: 12px;
-    }
 
     .zine-desc p {
         font-size: 16px;
