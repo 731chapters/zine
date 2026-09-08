@@ -14,12 +14,12 @@ const chapterData = {
                 author: "lucky_to_us",
                 rating: "",
                 pages: [
+                    "assets/CREDIT PAGE/by lucky_to_us.png",
                     "assets/PAGES/01-pagi/01.lucky_to_us/6.png",
                     "assets/PAGES/01-pagi/01.lucky_to_us/7.png",
                     "assets/PAGES/01-pagi/01.lucky_to_us/8.png",
                     "assets/PAGES/01-pagi/01.lucky_to_us/9.png",
-                    "assets/PAGES/01-pagi/01.lucky_to_us/10.png",
-                    "assets/CREDIT PAGE/by lucky_to_us.png"
+                    "assets/PAGES/01-pagi/01.lucky_to_us/10.png"
                 ]
             },
             {
@@ -36,7 +36,6 @@ const chapterData = {
                 author: "udin",
                 rating: "",
                 pages: [
-                    "assets/CREDIT PAGE/by udin.png",
                     "assets/PAGES/01-pagi/03.udin/12.png",
                     "assets/PAGES/01-pagi/03.udin/13.png",
                     "assets/PAGES/01-pagi/03.udin/14.png",
@@ -49,7 +48,6 @@ const chapterData = {
                 author: "niidjae",
                 rating: "",
                 pages: [
-                    "assets/CREDIT PAGE/by niidjae.png",
                     "assets/PAGES/01-pagi/04.niidjae/17.png",
                     "assets/PAGES/01-pagi/04.niidjae/18.png",
                     "assets/PAGES/01-pagi/04.niidjae/19.png",
@@ -59,8 +57,7 @@ const chapterData = {
                     "assets/PAGES/01-pagi/04.niidjae/23.png",
                     "assets/PAGES/01-pagi/04.niidjae/24.png",
                     "assets/PAGES/01-pagi/04.niidjae/25.png",
-                    "assets/PAGES/01-pagi/04.niidjae/26.png",
-                    "assets/EMPTY_PAGE.png"
+                    "assets/PAGES/01-pagi/04.niidjae/26.png"
                 ]
             },
             {
@@ -68,12 +65,10 @@ const chapterData = {
                 author: "ddoki",
                 rating: "",
                 pages: [
-                    "assets/CREDIT PAGE/by ddoki.png",
                     "assets/PAGES/01-pagi/05.ddoki/27.png",
                     "assets/PAGES/01-pagi/05.ddoki/28.png",
                     "assets/PAGES/01-pagi/05.ddoki/29.png",
-                    "assets/PAGES/01-pagi/05.ddoki/30.png",
-                    "assets/EMPTY_PAGE.png"
+                    "assets/PAGES/01-pagi/05.ddoki/30.png"
                 ]
             },
             {
@@ -81,13 +76,11 @@ const chapterData = {
                 author: "Bil",
                 rating: "",
                 pages: [
-                    "assets/CREDIT PAGE/by Bil.png",
                     "assets/PAGES/01-pagi/06.Bil/31.png",
                     "assets/PAGES/01-pagi/06.Bil/32.png",
                     "assets/PAGES/01-pagi/06.Bil/33.png",
                     "assets/PAGES/01-pagi/06.Bil/34.png",
-                    "assets/PAGES/01-pagi/06.Bil/35.png",
-
+                    "assets/PAGES/01-pagi/06.Bil/35.png"
                 ]
             },
             {
@@ -95,14 +88,12 @@ const chapterData = {
                 author: "oin",
                 rating: "",
                 pages: [
-                    "assets/CREDIT PAGE/by oin.png",
                     "assets/PAGES/01-pagi/07.oin/36.png",
                     "assets/PAGES/01-pagi/07.oin/37.png",
                     "assets/PAGES/01-pagi/07.oin/38.png",
                     "assets/PAGES/01-pagi/07.oin/39.png",
                     "assets/PAGES/01-pagi/07.oin/40.png",
-                    "assets/PAGES/01-pagi/07.oin/41.png",
-                    "assets/EMPTY_PAGE.png"
+                    "assets/PAGES/01-pagi/07.oin/41.png"
                 ]
             },
             {
@@ -110,14 +101,12 @@ const chapterData = {
                 author: "boljjippangyin",
                 rating: "",
                 pages: [
-                    "assets/CREDIT PAGE/by boljjippangyin.png",
                     "assets/PAGES/01-pagi/08.boljjippangyin/42.png",
                     "assets/PAGES/01-pagi/08.boljjippangyin/43.png",
                     "assets/PAGES/01-pagi/08.boljjippangyin/44.png",
                     "assets/PAGES/01-pagi/08.boljjippangyin/45.png",
                     "assets/PAGES/01-pagi/08.boljjippangyin/46.png",
-                    "assets/PAGES/01-pagi/08.boljjippangyin/47.png",
-                    "assets/EMPTY_PAGE.png"
+                    "assets/PAGES/01-pagi/08.boljjippangyin/47.png"
                 ]
             },
             {
@@ -125,7 +114,6 @@ const chapterData = {
                 author: "Sal",
                 rating: "",
                 pages: [
-                    "assets/CREDIT PAGE/by Sal.png",
                     "assets/PAGES/01-pagi/09.Sal/48.png",
                     "assets/PAGES/01-pagi/09.Sal/49.png",
                     "assets/PAGES/01-pagi/09.Sal/50.png",
@@ -151,7 +139,7 @@ const chapterData = {
                     "assets/PAGES/02-siang/01.owneeon/55.png",
                     "assets/PAGES/02-siang/01.owneeon/56.png",
                     "assets/PAGES/02-siang/01.owneeon/57.png",
-                    "assets/empty.png"
+                    "assets/EMPTY_PAGE.png"
                 ]
             },
             {
@@ -159,7 +147,6 @@ const chapterData = {
                 author: "Lou",
                 rating: "",
                 pages: [
-                    "assets/CREDIT PAGE/by Lou.png",
                     "assets/PAGES/02-siang/02.Lou/58.png",
                     "assets/PAGES/02-siang/02.Lou/59.png",
                     "assets/PAGES/02-siang/02.Lou/60.png",
@@ -172,7 +159,6 @@ const chapterData = {
                 author: "Otto",
                 rating: "",
                 pages: [
-                    "assets/CREDIT PAGE/by Oto.png",
                     "assets/PAGES/02-siang/03.Oto/63.png",
                     "assets/PAGES/02-siang/03.Oto/64.png",
                     "assets/PAGES/02-siang/03.Oto/65.png",
@@ -182,8 +168,7 @@ const chapterData = {
                     "assets/PAGES/02-siang/03.Oto/69.png",
                     "assets/PAGES/02-siang/03.Oto/70.png",
                     "assets/PAGES/02-siang/03.Oto/71.png",
-                    "assets/PAGES/02-siang/03.Oto/72.png",
-                    "assets/EMPTY_PAGE.png"
+                    "assets/PAGES/02-siang/03.Oto/72.png"
                 ]
             },
             {
@@ -191,7 +176,6 @@ const chapterData = {
                 author: "Chia",
                 rating: "",
                 pages: [
-                    "assets/CREDIT PAGE/by Chia.png",
                     "assets/PAGES/02-siang/04.Chia/73.png",
                     "assets/PAGES/02-siang/04.Chia/74.png",
                     "assets/PAGES/02-siang/04.Chia/75.png",
@@ -206,7 +190,6 @@ const chapterData = {
                 author: "bominight",
                 rating: "Suicide Attempt",
                 pages: [
-                    "assets/CREDIT PAGE/by bominight.png",
                     "assets/PAGES/02-siang/05.bominight/80.png",
                     "assets/PAGES/02-siang/05.bominight/81.png",
                     "assets/PAGES/02-siang/05.bominight/82.png",
@@ -227,7 +210,6 @@ const chapterData = {
                 author: "nidjse",
                 rating: "",
                 pages: [
-                    "assets/CREDIT PAGE/by nidjse.png",
                     "assets/PAGES/02-siang/06.nidjse/93.png",
                     "assets/PAGES/02-siang/06.nidjse/94.png",
                     "assets/PAGES/02-siang/06.nidjse/95.png",
@@ -235,8 +217,7 @@ const chapterData = {
                     "assets/PAGES/02-siang/06.nidjse/97.png",
                     "assets/PAGES/02-siang/06.nidjse/98.png",
                     "assets/PAGES/02-siang/06.nidjse/99.png",
-                    "assets/PAGES/02-siang/06.nidjse/100.png",
-                    "assets/EMPTY_PAGE.png"
+                    "assets/PAGES/02-siang/06.nidjse/100.png"
                 ]
             },
         ]
@@ -252,8 +233,8 @@ const chapterData = {
                 author: "96kuchengzz",
                 rating: "",
                 pages: [
-                    "assets/PAGES/03-sore/01.96kuchengzz/102.png",
-                    "assets/CREDIT PAGE/by 96kuchengzz - art.png"
+                    "assets/CREDIT PAGE/by 96kuchengzz - art.png",
+                    "assets/PAGES/03-sore/01.96kuchengzz/102.png"
                 ]
             },
             {
@@ -279,18 +260,14 @@ const chapterData = {
                 author: "Chococate",
                 rating: "",
                 pages: [
-                    "assets/CREDIT PAGE/by Chococate.png",
                     "assets/PAGES/03-sore/04.Chococate/106.png",
-                    "assets/PAGES/03-sore/04.Chococate/107.png",
-                    "assets/EMPTY_PAGE.png"
-                ]
+                    "assets/PAGES/03-sore/04.Chococate/107.png"]
             },
             {
                 title: "05. One Rainy Evening Before Home",
                 author: "eLiO",
                 rating: "",
                 pages: [
-                    "assets/CREDIT PAGE/by eLiO.png",
                     "assets/PAGES/03-sore/05.eLiO/108.png",
                     "assets/PAGES/03-sore/05.eLiO/109.png",
                     "assets/PAGES/03-sore/05.eLiO/110.png",
@@ -310,7 +287,6 @@ const chapterData = {
                 author: "shugarplums",
                 rating: "",
                 pages: [
-                    "assets/CREDIT PAGE/by shugarplums.png",
                     "assets/PAGES/03-sore/06.shugarplums/119.png",
                     "assets/PAGES/03-sore/06.shugarplums/120.png",
                     "assets/PAGES/03-sore/06.shugarplums/121.png",
@@ -329,7 +305,6 @@ const chapterData = {
                 author: "96kuchengzz",
                 rating: "",
                 pages: [
-                    "assets/CREDIT PAGE/by 96kuchengzz - story.png",
                     "assets/PAGES/03-sore/07.96kuchengzz/130.png",
                     "assets/PAGES/03-sore/07.96kuchengzz/131.png",
                     "assets/PAGES/03-sore/07.96kuchengzz/132.png",
@@ -346,7 +321,6 @@ const chapterData = {
                 author: "cacaaamor",
                 rating: "",
                 pages: [
-                    "assets/CREDIT PAGE/by cacaamor.png",
                     "assets/PAGES/03-sore/08.cacaaamor/139.png",
                     "assets/PAGES/03-sore/08.cacaaamor/140.png",
                     "assets/PAGES/03-sore/08.cacaaamor/141.png",
@@ -354,16 +328,13 @@ const chapterData = {
                     "assets/PAGES/03-sore/08.cacaaamor/143.png",
                     "assets/PAGES/03-sore/08.cacaaamor/144.png",
                     "assets/PAGES/03-sore/08.cacaaamor/145.png",
-                    "assets/PAGES/03-sore/08.cacaaamor/146.png",
-                    "assets/EMPTY_PAGE.png"
-                ]
+                    "assets/PAGES/03-sore/08.cacaaamor/146.png"]
             },
             {
                 title: "09. Rute Sembilan",
                 author: "Rad",
                 rating: "",
                 pages: [
-                    "assets/CREDIT PAGE/by Rad.png",
                     "assets/PAGES/03-sore/09.rad/147.png",
                     "assets/PAGES/03-sore/09.rad/148.png",
                     "assets/PAGES/03-sore/09.rad/149.png",
@@ -371,29 +342,23 @@ const chapterData = {
                     "assets/PAGES/03-sore/09.rad/151.png",
                     "assets/PAGES/03-sore/09.rad/152.png",
                     "assets/PAGES/03-sore/09.rad/153.png",
-                    "assets/PAGES/03-sore/09.rad/154.png",
-                    "assets/EMPTY_PAGE.png"
-                ]
+                    "assets/PAGES/03-sore/09.rad/154.png"]
             },
             {
                 title: "10. As Long as I Am Breathing and My Heart Is Beating (You Don’t Need a Reason to Call)",
                 author: "agus",
                 rating: "",
                 pages: [
-                    "assets/CREDIT PAGE/by agus.png",
                     "assets/PAGES/03-sore/10.agus/155.png",
                     "assets/PAGES/03-sore/10.agus/156.png",
                     "assets/PAGES/03-sore/10.agus/157.png",
-                    "assets/PAGES/03-sore/10.agus/158.png",
-                    "assets/EMPTY_PAGE.png"
-                ]
+                    "assets/PAGES/03-sore/10.agus/158.png"]
             },
             {
                 title: "11. Suaramu dalam Sunyiku",
                 author: "Sena",
                 rating: "",
                 pages: [
-                    "assets/CREDIT PAGE/by Sena.png",
                     "assets/PAGES/03-sore/11.Sena/159.png",
                     "assets/PAGES/03-sore/11.Sena/160.png",
                     "assets/PAGES/03-sore/11.Sena/161.png",
@@ -417,7 +382,7 @@ const chapterData = {
                     "assets/CREDIT PAGE/by dyata.png",
                     "assets/PAGES/04-malam/01. dyata/165.png",
                     "assets/PAGES/04-malam/01. dyata/166.png",
-                    "assets/empty.png"
+                    "assets/EMPTY_PAGE.png"
                 ]
             },
             {
@@ -428,7 +393,7 @@ const chapterData = {
                     "assets/CREDIT PAGE/by tunakaleng.png",
                     "assets/PAGES/04-malam/02. tunakaleng/167.png",
                     "assets/PAGES/04-malam/02. tunakaleng/168.png",
-                    "assets/empty.png"
+                    "assets/EMPTY_PAGE.png"
                 ]
             },
             {
@@ -454,8 +419,8 @@ const chapterData = {
                 author: "tofumandu_",
                 rating: "",
                 pages: [
-                    "assets/PAGES/04-malam/05. tofumandu_/171.png",
-                    "assets/CREDIT PAGE/by tofumandu_.png"
+                    "assets/CREDIT PAGE/by tofumandu_.png",
+                    "assets/PAGES/04-malam/05. tofumandu_/171.png"
                 ]
             },
             {
@@ -463,7 +428,6 @@ const chapterData = {
                 author: "vi",
                 rating: "adult-content",
                 pages: [
-                    "assets/CREDIT PAGE/by vi.png",
                     "assets/PAGES/04-malam/06. vi/172.png",
                     "assets/PAGES/04-malam/06. vi/173.png",
                     "assets/PAGES/04-malam/06. vi/174.png",
@@ -474,7 +438,6 @@ const chapterData = {
                     "assets/PAGES/04-malam/06. vi/178.png",
                     "assets/PAGES/04-malam/06. vi/179.png",
                     "assets/PAGES/04-malam/06. vi/180.png",
-                    "assets/EMPTY_PAGE.png"
                 ]
             },
             {
@@ -482,7 +445,6 @@ const chapterData = {
                 author: "serpentesea",
                 rating: "",
                 pages: [
-                    "assets/CREDIT PAGE/by serpentesea.png",
                     "assets/PAGES/04-malam/07. serpentesea/181.png",
                     "assets/PAGES/04-malam/07. serpentesea/182.png",
                     "assets/PAGES/04-malam/07. serpentesea/183.png",
@@ -499,7 +461,6 @@ const chapterData = {
                 author: "dolphinwhisper",
                 rating: "",
                 pages: [
-                    "assets/CREDIT PAGE/by dolphinwhisper.png",
                     "assets/PAGES/04-malam/08. dolphinwhisper/190.png",
                     "assets/PAGES/04-malam/08. dolphinwhisper/191.png",
                     "assets/PAGES/04-malam/08. dolphinwhisper/192.png",
@@ -509,16 +470,13 @@ const chapterData = {
                     "assets/PAGES/04-malam/08. dolphinwhisper/196.png",
                     "assets/PAGES/04-malam/08. dolphinwhisper/197.png",
                     "assets/PAGES/04-malam/08. dolphinwhisper/198.png",
-                    "assets/PAGES/04-malam/08. dolphinwhisper/199.png",
-                    "assets/EMPTY_PAGE.png"
-                ]
+                    "assets/PAGES/04-malam/08. dolphinwhisper/199.png"]
             },
             {
                 title: "09. Hangat Dalam Peluk",
                 author: "uyupochuu",
                 rating: "",
                 pages: [
-                    "assets/CREDIT PAGE/by uyupochuu.png",
                     "assets/PAGES/04-malam/09. uyupochuu/200.png"
                 ]
             },
@@ -527,46 +485,36 @@ const chapterData = {
                 author: "atmidnight",
                 rating: "",
                 pages: [
-                    "assets/CREDIT PAGE/by atmidnight.png",
                     "assets/PAGES/04-malam/10. atmidnight/201.png",
                     "assets/PAGES/04-malam/10. atmidnight/202.png",
                     "assets/PAGES/04-malam/10. atmidnight/203.png",
                     "assets/PAGES/04-malam/10. atmidnight/204.png",
                     "assets/PAGES/04-malam/10. atmidnight/205.png",
-                    "assets/PAGES/04-malam/10. atmidnight/206.png",
-                    "assets/EMPTY_PAGE.png"
-                ]
+                    "assets/PAGES/04-malam/10. atmidnight/206.png"]
             },
             {
                 title: "11. Makan Malam",
                 author: "ziowrite",
                 rating: "adult-content",
                 pages: [
-                    "assets/CREDIT PAGE/by ziowrite.png",
                     "assets/PAGES/04-malam/11. ziowrite/207.png",
-                    "assets/PAGES/04-malam/11. ziowrite/208.png",
-                    "assets/EMPTY_PAGE.png"
-                ]
+                    "assets/PAGES/04-malam/11. ziowrite/208.png"]
             },
             {
                 title: "12. Kesempatan Kedua",
                 author: "may",
                 rating: "",
                 pages: [
-                    "assets/CREDIT PAGE/by may.png",
                     "assets/PAGES/04-malam/12. may/209.png",
                     "assets/PAGES/04-malam/12. may/210.png",
                     "assets/PAGES/04-malam/12. may/211.png",
-                    "assets/PAGES/04-malam/12. may/212.png",
-                    "assets/EMPTY_PAGE.png"
-                ]
+                    "assets/PAGES/04-malam/12. may/212.png"]
             },
             {
                 title: "13. Lentera & Lembar Cinta",
                 author: "pijaraya",
                 rating: "",
                 pages: [
-                    "assets/CREDIT PAGE/by pijaraya.png",
                     "assets/PAGES/04-malam/13. pijaraya/213.png",
                     "assets/PAGES/04-malam/13. pijaraya/214.png",
                     "assets/PAGES/04-malam/13. pijaraya/215.png",
@@ -576,9 +524,7 @@ const chapterData = {
                     "assets/PAGES/04-malam/13. pijaraya/219.png",
                     "assets/PAGES/04-malam/13. pijaraya/220.png",
                     "assets/PAGES/04-malam/13. pijaraya/221.png",
-                    "assets/PAGES/04-malam/13. pijaraya/222.png",
-                    "assets/EMPTY_PAGE.png"
-                ]
+                    "assets/PAGES/04-malam/13. pijaraya/222.png"]
             }
         ]
     }
