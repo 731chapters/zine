@@ -117,7 +117,7 @@ body {
     text-align: center;
 }
 
-.landing-area img {
+.landing-content img {
     display: block;
 
     width: 700px;
@@ -129,10 +129,6 @@ body {
     transition: transform 0.4s ease;
 }
 
-.landing-area img:hover {
-    transform: scale(1.02);
-    filter: drop-shadow(0 8px 20px rgba(80, 50, 55, 0.08));
-}
 
 .landing.hide {
     opacity: 0;
@@ -284,8 +280,8 @@ body {
     transition: transform 0.4s ease;
 }
 
-.home>div:first-child img:hover {
-    transform: scale(1.02);
+.logo:hover {
+    transform: scale(1.05);
     filter: drop-shadow(0 8px 20px rgba(80, 50, 55, 0.08));
 
 }
@@ -317,7 +313,6 @@ body {
     transition: transform 0.4s ease;
 }
 
-
 .landing-content {
     width: 100%;
     display: flex;
@@ -327,6 +322,26 @@ body {
     gap: 4vh;
     padding: 8vh 20px;
     box-sizing: border-box;
+
+    animation: rise-fade-in 1s ease both;
+    animation-delay: 0.3s;
+}
+
+.landing-content .logo {
+    display: block;
+    width: 700px;
+    max-width: 85vw;
+    max-height: 85vh;
+    object-fit: contain;
+
+    transition:
+        transform 0.4s ease,
+        filter 0.4s ease;
+}
+
+.landing-content .logo:hover {
+    transform: scale(1.05);
+    filter: drop-shadow(0 8px 20px rgba(80, 50, 55, 0.08));
 }
 
 @keyframes lace-open-top {
@@ -345,9 +360,8 @@ body {
     animation: lace-open-top 1s cubic-bezier(.25, .8, .3, 1) both;
 }
 
-.landing-area .background img:not(.lace-up):not(.lace-down) {
-    animation: rise-fade-in 1s ease both;
-    animation-delay: 0.3s;
+.landing-content .logo {
+    animation: none;
 }
 
 .landing-area h1 {
@@ -524,7 +538,7 @@ body {
 }
 
 
-.chapter-image:hover .anticlockwise {
+.chapter-image:hover .anticlockwise:hover {
     transform: scale(1.08) rotate(10deg);
     filter: drop-shadow(-10px 8px 28px rgba(100, 60, 70, 0.4));
 }
