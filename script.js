@@ -663,7 +663,29 @@ function getWorkWarning(workIndex) {
 
     return null;
 }
+function renderContributors() {
+    document.querySelectorAll(".cont-chapt").forEach(container => {
+        const chapterKey = container.dataset.chapter;
+        const chapter = chapterData[chapterKey];
 
+        if (!chapter) return;
+
+        const list = container.querySelector("ul");
+        if (!list) return;
+
+        list.innerHTML = "";
+
+        chapter.works.forEach(work => {
+            if (!work.author) return;
+
+            const li = document.createElement("li");
+            li.textContent = work.author;
+            list.appendChild(li);
+        });
+    });
+}
+
+renderContributors();
 function findNextWorkIndex(startIndex) {
     const chapter = chapterData[currentChapter];
     if (!chapter) return null;
