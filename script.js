@@ -401,8 +401,8 @@ const chapterData = {
                 author: "Day",
                 rating: "",
                 pages: [
-                    "assets/PAGES/04-malam/03. Day/169.png",
-                    "assets/CREDIT PAGE/by Day.png"
+                    "assets/CREDIT PAGE/by Day.png",
+                    "assets/PAGES/04-malam/03. Day/169.png"
                 ]
             },
             {
