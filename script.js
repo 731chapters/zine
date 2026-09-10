@@ -1,6 +1,22 @@
 const landing = document.getElementById("landing");
 const main = document.getElementById("main");
 const zine = document.getElementById("zine");
+const FlipSound = new Audio('assets/page.mp3');
+
+function playFlipSound() {
+    if (!FlipSound) return;
+
+    try {
+        FlipSound.currentTime = 0;
+        const playPromise = FlipSound.play();
+
+        if (playPromise && typeof playPromise.catch === "function") {
+            playPromise.catch(() => { });
+        }
+    } catch (error) {
+        console.warn("Flip sound could not be played:", error);
+    }
+}
 
 const chapterData = {
 
@@ -961,7 +977,7 @@ function flipForward() {
     }
 
     isFlipping = true;
-
+    playFlipSound();
     if (currentSpreadIdx === 0) {
         book.classList.add("open");
     }
@@ -1030,6 +1046,7 @@ function flipBackward() {
     }
 
     isFlipping = true;
+    playFlipSound();
 
     if (currentSpreadIdx - 1 === 0) {
         book.classList.remove("open");
