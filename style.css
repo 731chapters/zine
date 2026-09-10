@@ -1040,61 +1040,10 @@ body {
 .zine .menu {
     position: absolute;
 
-    top: 40px;
-    right: 52px;
+    top: 28px;
+    right: 35px;
 
     z-index: 20;
-}
-
-.zine .menu>i {
-    width: 48px;
-    height: 48px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid rgba(255, 255, 255, 0.85);
-    border-radius: 50%;
-    background: rgba(255, 255, 255, 0.35);
-    color: #8f7d82;
-    font-size: 23px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
-
-.zine .menu>i:hover {
-    background: rgba(255, 255, 255, 0.65);
-    transform: scale(1.05);
-}
-
-.zine .menu>span {
-    position: absolute;
-    top: 58px;
-    right: 0;
-    min-width: 130px;
-    padding: 10px 0;
-    display: none;
-    flex-direction: column;
-    background: rgba(255, 250, 250, 0.42);
-    border: 1px solid rgba(255, 255, 255, 0.72);
-    border-radius: 10px;
-    box-shadow: 0 8px 25px rgba(100, 60, 70, 0.08);
-    backdrop-filter: blur(14px) saturate(125%);
-    -webkit-backdrop-filter: blur(14px) saturate(125%);
-}
-
-.zine .menu.open>span {
-    display: flex;
-}
-
-.zine .menu>span a {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    padding: 6px 18px;
-    color: var(--brown);
-    text-decoration: none;
-    font-size: 14px;
-    transition: 0.2s ease;
 }
 
 .dropdown-menu span {
@@ -1778,10 +1727,6 @@ body {
         border-radius: 22px;
     }
 
-    .zine .menu {
-        width: 40px;
-    }
-
     .menu>i {
         width: 32px;
         height: 32px;
@@ -1900,58 +1845,6 @@ body {
         object-fit: contain;
 
         margin-top: 1px;
-    }
-
-    .zine .menu>span {
-        position: absolute;
-        margin-top: 10px;
-        top: 34px;
-        right: 0;
-
-        width: 40px;
-        min-width: 40px;
-
-        display: none;
-        flex-direction: column;
-        gap: 8px;
-
-        padding: 6px 0;
-
-        align-items: center;
-        background: rgba(255, 250, 252, 0.42);
-        border: 1px solid rgba(255, 255, 255, 0.72);
-        border-radius: 22px;
-
-        box-shadow: 0 8px 25px rgba(100, 60, 70, 0.1);
-        backdrop-filter: blur(14px) saturate(125%);
-        -webkit-backdrop-filter: blur(14px) saturate(125%);
-    }
-
-    .zine .menu {
-        top: 18px;
-        right: 20px;
-        width: 40px;
-    }
-
-    .zine .menu>i {
-        width: 32px;
-        height: 32px;
-        font-size: 15px;
-    }
-
-    .zine .menu>span a {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
-        width: 40px;
-        height: 28px;
-        padding: 0;
-
-        color: var(--brown);
-        text-decoration: none;
-
-        transition: 0.2s ease;
     }
 
     .zine .prev-page,
